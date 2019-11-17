@@ -1,4 +1,11 @@
 import React from 'react'
+import { Header } from './header'
+import { Transactions } from './transactions'
+import { Footer } from './footer'
 
 export const App = () =>
-	<p>App</p>
+	<React.Fragment>
+		<Header />
+		<Transactions />
+		<Footer />
+	</React.Fragment>

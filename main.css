@@ -1,3 +1,7 @@
 body {
   font-family: 'arial';
+  margin: 0;
+  padding: 0;
+  color: RGB(70, 70, 70);
+  background-color: RGB(210, 210, 210);
 }
