@@ -19,7 +19,7 @@ Transactions details are requested to backend, and the details page is populated
 Frontend is responsive to different screen sizes.
 
 
-## roblems
+## Problems
 
 ### sochain
 
