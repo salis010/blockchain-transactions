@@ -19,9 +19,9 @@ Transactions details are requested to backend, and the details page is populated
 Frontend is responsive to different screen sizes.
 
 
-##Problems
+## roblems
 
-###sochain
+### sochain
 
 The sochain api kept returning a status of 503 and gave cors errors. I could not make it work.
 
@@ -39,7 +39,7 @@ So I looked up the internet for "busy blockchaing addresses", and used them inst
 
 Some return just 10 transactions, and some have duplicates, I do not know why.
 
-###Fetching Transaction Details
+### Fetching Transaction Details
 
 I kept getting errors when trying to fetch transaction details from the blockcypher api.
 
@@ -50,7 +50,7 @@ Probably I am picking the wrong hash due to my lack of knowledge in blockchain, 
 So, I hard-coded the 'transaction-details', and always send the same details back to frontend.
 
 
-##Improvements
+## Improvements
 
 A node server could run in the background fetching transaction details and writing them to a MongoDB. When the user requests transaction details, a check is made on whether the database already has the required data, and if yes provide the data to frontend via socketing. If not, a request to the sochain api is made.
 
